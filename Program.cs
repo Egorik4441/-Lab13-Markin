@@ -26,3 +26,42 @@
 
 // PrintStudentCard("Егор", 18, "ИСП-253");
 // PrintStudentCard("Валерия", 17, "ИСП-253");
+
+
+
+// double CalculateScholarship(double baseAmount, double bonusPercent)
+// {
+//     return baseAmount + baseAmount * bonusPercent / 100;
+// }
+
+// double result = CalculateScholarship(2000, 15);
+// Console.WriteLine(result);
+
+
+
+
+
+// double CalculateAverageGrade(int[] grades)
+// {
+//     int sum = 0;
+//     foreach (int grade in grades)
+//     {
+//         sum += grade;
+//     }
+//     return (double)sum / grades.Length;
+//     int CountFives(int[] grades);
+//     int count = 0;
+//     foreach (int grade in grades)
+//     {
+//         if (grade == 5)
+//         {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// int[] grades = { 4, 5, 3, 5, 4 };
+// double average = CalculateAverageGrade(grades);
+// Console.WriteLine(average);
+// int fivesCount = CountFives(grades);
+// Console.WriteLine();
